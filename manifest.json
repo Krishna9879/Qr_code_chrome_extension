@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "QR Code Generator",
+    "version": "1.0",
+    "description": "Generate a QR code for the current webpage.",
+    "permissions": ["tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "qr.png"
+    },
+      "icons":{
+       
+        "128": "qr.png"
+      }
+  }
+  
